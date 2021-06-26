@@ -9,3 +9,11 @@
   color: white;
   font-weight: 600;
 }
+.notifs {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+}

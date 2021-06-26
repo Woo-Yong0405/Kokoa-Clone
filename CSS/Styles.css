@@ -5,6 +5,7 @@
 @import "Friends.css";
 @import "UserComponent.css";
 @import "Badge.css";
+@import "Find.css";
 body {
   color: #2e363e;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

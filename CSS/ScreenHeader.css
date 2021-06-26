@@ -12,3 +12,11 @@
 .screen-header_icons span {
   margin-left: 25px;
 }
+.fa-cog {
+  position: relative;
+}
+.notifs_cog {
+  position: absolute;
+  right: 18px;
+  top: 25px;
+}
