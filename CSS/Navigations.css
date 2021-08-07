@@ -24,3 +24,39 @@
   left: 30px;
   bottom: 25px;
 }
+@keyframes appearButton {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.nav_li {
+  transform: translateY(80px);
+  animation: appearButton 1s ease-in-out forwards;
+}
+.nav_li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nav_li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.nav_li:last-child {
+  animation-delay: 0.6s;
+}
+.nav_li_d {
+  transform: translateY(80px);
+  animation: appearButton 1s ease-in-out forwards;
+  animation-delay: 2s;
+}
+.nav_li_d:nth-child(2) {
+  animation-delay: 2.2s;
+}
+.nav_li_d:nth-child(3) {
+  animation-delay: 2.4s;
+}
+.nav_li_d:last-child {
+  animation-delay: 2.6s;
+}

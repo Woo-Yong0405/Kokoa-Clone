@@ -1,4 +1,5 @@
 .screen-header {
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
   padding: var(--horizontal);
@@ -15,8 +16,19 @@
 .fa-cog {
   position: relative;
 }
+@keyframes cogRotation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
 .notifs_cog {
   position: absolute;
   right: 18px;
-  top: 25px;
+  top: 50px;
+}
+.screen-header_icons .fa-cog:hover {
+  animation: cogRotation 1s ease-in-out infinite;
 }
